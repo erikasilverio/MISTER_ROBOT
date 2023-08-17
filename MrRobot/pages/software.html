@@ -19,13 +19,92 @@
     </header>
     <h1>Bievenidos a Software</h1>
 
+    <div>
     <video autoplay muted loop controls preload="auto">
         <source src="../video/Mr. Robot - Trailer (Subtitulado Español).mp4#t=10,30">
         <source src="../video/Mr. Robot - Trailer (Subtitulado Español).m4v#t=10,30">
         <source src="../video/Mr. Robot - Trailer (Subtitulado Español).ogg#t=10,30">
     </video>
+    </div>
     <br><br>
-    <iframe width="700" height="470" src="https://www.youtube.com/embed/NmlZIrwWtG0" title="Elliot fala sobre Deus (Mr.Robot)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+
+    <!--formulario-->
+
+    <form action="" method="">
+        <fieldset>
+            <legend><b>Datos Personales</b></legend>
+            <label for="apellido" name="apellido" id="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+
+            <label for="nombre" name="nombre" id="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required><br><br>
+
+            <label for="dni">DNI</label>
+            <input type="number" name="dni" id="dni" min="10000000" max="99999999">
+
+            <label for="tramite">Numero de tramite</label>
+            <input type="password" name="tramite" id="tramite"><br><br>
+
+            <label for="fecNac">Fecha de Nascimento</label>
+            <input type="date" name="fecNac" id="fecNac"><br><br>
+
+            <label for="email">e-Mail</label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="adjuntar">Adjuntar Foto</label>
+            <input type="file" name="adjuntar" id="adjuntar"><br>
+
+
+        </fieldset> <br> <br>
+        <fieldset>
+            <legend><b>Turnos</b></legend>
+            <label for="turno">Selecionar Turno</label> <br>
+            <select name="turno" id="turno" size="3">
+                <option value="1">Mañana</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noche</option>
+            </select>
+
+            <br><br>
+            <label for="estudios"><b>Estudios Previos</b></label>
+            <input type="checkbox" name="estudios" id="estudios" value="1"> Eletrocardiograma
+            <input type="checkbox" name="estudios" id="estudios" value="2"> Sangre
+            <input type="checkbox" name="estudios" id="estudios" value="3"> Tomografia
+            <input type="checkbox" name="estudios" id="estudios" value="4"> Ecografia
+
+            <br><br>
+
+            <label for="operacion"><b>Lugar da Operacion</b></label>
+            <input type="radio" value="1" name="operacion"> Clinica Primada
+            <input type="radio" value="2" name="operacion"> Hospital
+            <input type="radio" value="3" name="operacion"> Nosocomio
+
+            <br><br>
+
+            <label for="color"><b>Color de Ojos</b></label><br>
+            <input type="color" name="color" id="color"> 
+
+            <br><br>
+
+            <label for="comentarios"><b>Comentarios</b></label>
+            <textarea cols="56" rows="8" placeholder="Escreva seus comentarios"></textarea>          
+
+
+        </fieldset>
+        <br> <br>
+        <input type="checkbox" name="condiciones" required>acepto as condiciones
+        <input type="submit" value="enviar datos"> <br> <br>
+        <input type="" value="">
+
+
+    </form>
+
+
+    <br><br>
+
+    <!---<iframe width="700" height="470" src="https://www.youtube.com/embed/NmlZIrwWtG0" title="Elliot fala sobre Deus (Mr.Robot)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+    -->
+
 
 </body>
 </html>
