@@ -30,7 +30,7 @@
 
     <!--formulario-->
 
-    <form action="" method="">
+    <form action="" method="POST">
         <fieldset>
             <legend><b>Datos Personales</b></legend>
             <label for="apellido" name="apellido" id="apellido">Apellido</label>
@@ -38,6 +38,12 @@
 
             <label for="nombre" name="nombre" id="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre" required><br><br>
+
+            <label for="rdoF"> Feminino</label>
+            <input type="radio" id="rdoF" name="rdoSexo" value="F">
+
+            <label for="rdoF"> Masculino</label>
+            <input type="radio" id="rdoM" name="rdoSexo" value="M"> <br><br>
 
             <label for="dni">DNI</label>
             <input type="number" name="dni" id="dni" min="10000000" max="99999999">
@@ -63,7 +69,11 @@
                 <option value="1">Mañana</option>
                 <option value="2">Tarde</option>
                 <option value="3">Noche</option>
-            </select>
+            </select> <br><br>
+            <input type="time"/><br>
+            <input type="datetime-local"/> <br>
+
+
 
             <br><br>
             <label for="estudios"><b>Estudios Previos</b></label>
@@ -92,7 +102,7 @@
 
         </fieldset>
         <br> <br>
-        <input type="checkbox" name="condiciones" required>acepto as condiciones
+        <input type="checkbox" name="condiciones" required>Acepto as condiciones
         <input type="submit" value="enviar datos"> <br> <br>
         <input type="" value="">
 
