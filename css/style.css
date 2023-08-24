@@ -1,12 +1,19 @@
-
+body{
+    background-color: #ccbbee;
+    padding-left: 11em;
+}
 
 
 .especial {
     color: rgb(24, 24, 214);
     background-color: rgb(85, 205, 205);
+    padding: 10px;
+    
 }
-
 
 .navbar{
-    background-color: brown;
+    background-color: #911717;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
