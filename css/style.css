@@ -1,11 +1,12 @@
-body{
-    background-color: rgb(231, 167, 89);
-
-}
 
 
-p {
+
+.especial {
     color: rgb(24, 24, 214);
     background-color: rgb(85, 205, 205);
 }
 
+
+.navbar{
+    background-color: brown;
+}
