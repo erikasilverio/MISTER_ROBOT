@@ -1,19 +1,93 @@
+*{
+    font-size: 16px;
+}
+
 body{
-    background-color: #ccbbee;
-    padding-left: 11em;
+    /* background-image: url("../img/watercolor.jpg"); */
+    /*padding-left: 11em; */
+    font-family: Arial, Helvetica, sans-serif;
+        
 }
 
 
-.especial {
+/* p{
+    color:rgb(241, 45, 15)!important;
+} 
+
+/* #primer-especial {
     color: rgb(24, 24, 214);
-    background-color: rgb(85, 205, 205);
-    padding: 10px;
-    
 }
+
+
+/* .especial{
+    color: rgb(122, 166, 45);
+} 
+
+/* p{
+color: rgb(188, 135, 22);} */
+
+
+
 
 .navbar{
-    background-color: #911717;
+    background-color: #eb0909;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.rs{
+    list-style: none;
+}
+
+/* .articulo h2 ~ span {
+    color: rgb(7, 137, 55);
+} */
+
+.articulo h2 + span {
+    color: rgb(223, 12, 72);
+}
+
+.entrada{
+    background-color: #cdcfba;
+    width: 600px;
+    height: 400px;
+    /* max-width: 600px;
+    min-width: 200px; */
+    margin: 10px 20px;
+    padding: 10px;
+    border: 5px double #000;
+
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: green;
+    font-size: 16px;
+}
+
+input:focus{
+    background: yellow;
+}
+
+/* p:not(.miP){
+    color: blue;
+    background-color: chocolate;
+} */
+
+.miP{
+    background-color: violet;
+}
+
+p:first-child{
+    color: greenyellow;
 }
 
