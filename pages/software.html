@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Software</title>
-    <link rel="shortcut icon" href="../img/ico/anonymous_anonym_crime_hacker_thief_icon.ico" type="imagem/x-icon">
+    <link rel="shortcut icon" href="../img/ico/anonymous_anonym_crime_hacker_thief_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&family=Sofia+Sans:wght@1&display=swap" rel="stylesheet">
-
-
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@1;200&family=Sofia+Sans+Semi+Condensed:wght@1&family=Sofia+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -23,131 +21,67 @@
             </ul> 
         </nav>
     </header>
-    <h1>Bievenidos a Software</h1>
-    
-
-    <br><br>
-
-    <div class="entrada">
-        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam blanditiis dicta dolores cumque saepe in, possimus sed aut pariatur, distinctio corrupti nihil. Magni, veritatis repellendus? Rerum, placeat. Aut, nam enim.</p>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
+    <h1>Bievenidos a software</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eos reprehenderit mollitia libero ullam dolorum minima alias blanditiis delectus, laborum fuga incidunt sit nesciunt exercitationem totam vel cupiditate. Harum, cum!</p>
     <div id="video">
-    <video autoplay muted loop controls preload="auto">
-        <source src="../video/Mr. Robot - Trailer (Subtitulado Español).mp4#t=10,30">
-        <source src="../video/Mr. Robot - Trailer (Subtitulado Español).m4v#t=10,30">
-        <source src="../video/Mr. Robot - Trailer (Subtitulado Español).ogg#t=10,30">
-    </video>
+          <video autoplay muted loop controls preload="auto">
+            <source src="../vide/Mr. Robot - Trailer (Subtitulado Español).mp4#t=10,30">
+            <source src="../video/Mr. Robot - Trailer (Subtitulado Español).m4v#t=10,30">
+            <source src="../video/Mr. Robot - Trailer (Subtitulado Español).ogg#t=10,30">
+        </video>
     </div>
-    <br><br>
-
-   
-
-    <form action="" method="POST">
+    <br> <br>
+    <!-- formulario -->
+    <form action="" method="">
         <fieldset>
             <legend><b>Datos Personales</b></legend>
             <label for="apellido" name="apellido" id="apellido">Apellido</label>
             <input type="text" name="apellido" id="apellido">
-
             <label for="nombre" name="nombre" id="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" required><br><br>
-
-            <label for="rdoF"> Feminino</label>
-            <input type="radio" id="rdoF" name="rdoSexo" value="F">
-
-            <label for="rdoF"> Masculino</label>
-            <input type="radio" id="rdoM" name="rdoSexo" value="M"> <br><br>
-
+            <input type="text" name="nombre" id="nombre" required> <br> <br>
             <label for="dni">DNI</label>
-            <input type="number" name="dni" id="dni" min="10000000" max="99999999">
-
-            <label for="tramite">Numero de tramite</label>
-            <input type="password" name="tramite" id="tramite"><br><br>
-
-            <label for="fecNac">Fecha de Nascimento</label>
-            <input type="date" name="fecNac" id="fecNac"><br><br>
-
+            <input type="number" name="dni" id="dni" min="1000000" max="99000000"> 
+            <label for="tramite">N° de trámite</label>
+            <input type="password" name="tramite" id="tramite" placeholder="coloque el nro que le dio la srta de recpción"> <br><br>
+            <label for="fecNac">Fecha de Nacimiento</label>
+            <input type="date" name="fecNac" id="fecNac">
             <label for="email">e-Mail</label>
-            <input type="email" name="email" id="email"><br><br>
-
-            <label for="adjuntar">Adjuntar Foto</label>
-            <input type="file" name="adjuntar" id="adjuntar"><br>
-
-
+            <input type="email" name="email" id="email"> <br> <br>
+            <label for="adjuntar">Adjuntar foto</label>
+            <input type="file" name="adjuntar" id="adjuntar">           
         </fieldset> <br> <br>
         <fieldset>
             <legend><b>Turnos</b></legend>
-            <label for="turno">Selecionar Turno</label> <br>
+            <label for="turno"><b>Seleccionar un turno</b></label> <br>
             <select name="turno" id="turno" size="3">
                 <option value="1">Mañana</option>
                 <option value="2">Tarde</option>
                 <option value="3">Noche</option>
-            </select> <br><br>
-            <input type="time"/><br>
-            <input type="datetime-local"/> <br>
-
-
-
-            <br><br>
-            <label for="estudios"><b>Estudios Previos</b></label>
-            <input type="checkbox" name="estudios" id="estudios" value="1"> Eletrocardiograma
-            <input type="checkbox" name="estudios" id="estudios" value="2"> Sangre
-            <input type="checkbox" name="estudios" id="estudios" value="3"> Tomografia
-            <input type="checkbox" name="estudios" id="estudios" value="4"> Ecografia
-
-            <br><br>
-
-            <label for="operacion"><b>Lugar da Operacion</b></label>
-            <input type="radio" value="1" name="operacion"> Clinica Primada
+            </select>
+           <br> <br>
+           <label for="estudios"><b>Estudios Previos</b> </label>
+            <input type="checkbox" name="estudios" id="estudios" value="1">electrocardiograma
+            <input type="checkbox" name="estudios" id="estudios" value="2">Sangre
+            <input type="checkbox" name="estudios" id="estudios" value="3">Tomografía
+            <input type="checkbox" name="estudios" id="estudios" value="4">Ecografía
+            <br> <br>
+            <label for="operacion"><b>Lugar de la operación</b> </label> <br>
+            <input type="radio" value="1" name="operacion"> Clínica privada
             <input type="radio" value="2" name="operacion"> Hospital
-            <input type="radio" value="3" name="operacion"> Nosocomio
-
-            <br><br>
-
-            <label for="color"><b>Color de Ojos</b></label><br>
-            <input type="color" name="color" id="color"> 
-
-            <br><br>
-
-            <label for="comentarios"><b>Comentarios</b></label>
-            <textarea cols="56" rows="8" placeholder="Escreva seus comentarios"></textarea>          
-
-
+            <input type="radio" value="3" name="operacion"> Nosocomio <br> <br>
+            <label for="color"><b>Color de ojos</b> </label> <br>
+            <input type="color" name="color" id="color">
+            
+            <br> <br>
+            <label for="comentarios"><b>Comentarios</b> </label> <br>
+           <textarea cols="56" rows="8" placeholder="Puede escribir qué le pareció la atención"></textarea>
         </fieldset>
         <br> <br>
-        <input type="checkbox" name="condiciones" required>Acepto as condiciones
+        <input type="checkbox" name="condiciones" required> Acepto los términos y condiciones
         <input type="submit" value="enviar datos"> <br> <br>
-        <input type="" value="">
-
+        <input type="reset" value="borrar">
 
     </form>
-
-
-    <br><br>
-
-    <iframe width="700" height="470" src="https://www.youtube.com/embed/NmlZIrwWtG0" title="Elliot fala sobre Deus (Mr.Robot)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
-    
-
--->
-
-
-
-
-
-
 
 
 </body>
